@@ -1,0 +1,55 @@
+body {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(164, 80, 241);
+    margin: 50px;
+}
+
+body .title h1 {
+    color: rgb(14, 14, 87);
+}
+
+body .title p {
+    font-size: 20px;
+    color:rgb(112, 25, 25);
+}
+
+body .title p .success {
+    color: green;
+}
+
+
+input,
+textarea {
+    display: inline-block;
+    align-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 80%;
+    margin: 11px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(16, 16, 179);
+}
+
+.btn {
+    border: none;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    border-radius: 5px;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #008CBA;
+  color: white;
+}
